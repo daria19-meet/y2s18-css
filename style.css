@@ -5,5 +5,35 @@ h1{
 	color: #800020;
 }
 a,p{
-	color: #C93200
+	color: #C93200;
+}
+.Meat{
+	color: yellow;
+}
+.veg{
+	color: blue; font-size: 15px;font-family: Arial;
+}
+#tacos{
+	background-color: green;
+}
+input.cb:checked{width: 50px; height: 50px;}
+a:hover{
+	background-color: white;
+}
+div.sidebar{
+	border: 5px solid red;
+	background-color: #EEDD82;
+	position: absolute;
+	left:0px;
+}
+div.title{
+	height: 60px; width: 100%;
+}
+div.container{
+	position: relative;
+}
+div.content{
+	position: absolute; 
+	top: 0px;
+	left:200px;
 }

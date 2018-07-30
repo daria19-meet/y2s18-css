@@ -5,12 +5,28 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1> Hello</h1>
-	<p>Paragraph 1</p>
-	<p>Paragraph 2</p>
-	<ul>
-		<li> Tacos</li>
-		<li>Mangos</li>
-	</ul>
+	<div class="title"><h1> Hello</h1></div>
+	<div class="container">
+		<div class="sidebar"></div>
+		<div class="content">
+			<p>Paragraph 1</p>
+			<p>Paragraph 2</p>
+			<ul>
+				<li class="Meat" id="tacos"> Tacos</li>
+				<li class="veg">Mangos</li>
+				<li class="veg">Berries</li>
+				<li class="veg">Tomatoes</li>
+				<li class="veg">Peaches</li>
+			</ul>
+			<form>
+				<input type="checkbox" name="artist" value="Van Gogh" class="cb">Van Gogh
+				<input type="checkbox" name="artist" value="Picasso"class="cb">Picasso
+				<input type="checkbox" name="artist" value="Gustav Klimt"class="cb">Gustav Klimt
+				<input type="radio" name="artist" value="Frida Kahlo">Frida Kahlo
+				<input type="submit" name="Sub">
+			</form>
+			<a href="https://en.wikipedia.org/wiki/Gustav_Klimt">Gustav Klimt</a>
+		</div>
+	</div>
 </body>
 </html>
